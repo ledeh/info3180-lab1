@@ -14,6 +14,10 @@ def home():
 def about():
     return render_template('about.html')
 
+@app.route('/about', methods=['Get', 'POST'])
+def mypic():
+      return app.send_static_file('about.html')
+
 @app.errorhandler(404)
 def page_not_found(error):
     """Custom 404 page."""
