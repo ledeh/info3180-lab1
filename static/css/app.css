@@ -2,10 +2,33 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 14px;
   line-height: 1.5;
-}
+  background-color: #bbcde9;
+ }
 
 .container {
   max-width: 960px;
   margin: 0 auto;
 }
 
+h1{
+  font-family: 'Lexend Deca', sans-serif; 
+  color: #2E475D;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+img{
+  align-content: center;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+p{
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-family: 'Lexend Deca', sans-serif; 
+  color: #2E475D;
+}
